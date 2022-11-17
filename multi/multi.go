@@ -2,6 +2,6 @@ package multi
 
 import "fmt"
 
-func mul() {
+func Mul() {
 	fmt.Println("mul")
 }
