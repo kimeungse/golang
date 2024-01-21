@@ -55,7 +55,7 @@ func Go_WithValue() {
 func square(ctx context.Context) {
 	if v := ctx.Value("v"); v != nil {
 		n := v.(int)
-		fmt.Println("Square:", n*n)
+		fmt.Println("Square:", n*n*n)
 	}
 	wg.Done()
 }
